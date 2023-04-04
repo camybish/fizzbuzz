@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './fb'
 
 describe 'fb' do

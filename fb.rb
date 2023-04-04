@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def greet(name)
-    return "Hello, #{name}, how are you today?"
+  "Hello, #{name}, how are you today?"
 end
