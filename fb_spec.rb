@@ -1,9 +1,9 @@
-require './fb.rb'
+require './fb'
 
-describe 'Greeter' do
+describe 'fb' do
   it 'greets Rico' do
     name = 'Rico' # Given
-    result = greet(name) # When
-    expect(result).to eq 'Hello, Rico, how are you today?' # Then
+    result = greet(name)
+    expect(result).to eq 'Hello, Rico, how are you today?'
   end
 end
